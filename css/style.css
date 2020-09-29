@@ -462,3 +462,50 @@ footer h6
     	padding-top: 5rem;
     }
 }
+
+
+@media screen and (max-width: 375px)
+{  
+
+	html
+	{
+		font-size: 25%;
+	}
+	section
+	{
+		height: auto;
+	}
+	.banner-sec
+   {
+	margin-top: 4rem;
+   }
+
+   .home-sec .social-link 
+   {
+   	margin-bottom: 5rem;
+   }
+   .about .box
+   {
+   	margin-bottom: -4rem;
+   }
+   .work .box
+{
+     width: 25%;
+    
+ }
+ .form-group input , textarea
+ {
+ 	width: 50%!important;
+ }
+  .contact
+  {
+  	margin-bottom: 4rem;
+  }
+  footer
+  {
+  	height: 25vh;
+  }
+
+
+
+}
